@@ -7,21 +7,42 @@
   </head>
 
   <body>
-    <h1>Hello World, we are software developers!</h1>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">
+      It is a long established fact that a reader will be distracted by the readable content of a page 
+      when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+      distribution of letters, as opposed to using 'Content here, content here', making it look like 
+      readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as 
+      their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their 
+      infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
+      (injected humour and the like).
+
+    </p>
+
+    <form id="survey-form">
+      <input id="name" type="text" required="Input" placeholder="Username">
+      <input id="email" type="email" required="Input" placeholder="Enter your email">
+      <input id="number" type="number" min="5" max="100" placeholder="Enter oyur age">
+      <label id="name-label">Name</label>
+      <label id="email-label">Email</label>
+      <label id="number-label">Age</label>
+      <select id="dropdown">
+        <option value="Test 1"> Test 1</option>
+        <option value="Test 2"> Test 2</option>
+        <option value="Test 3"> Test 3</option>
+      </select>
+      <input type="radio" value="Example 1" name="atribute">
+      <input type="radio" value="Example 2" name="atribute">
+      <input type="checkbox" value="Example 3">
+      <input type="checkbox" value="Example 4">
+      <textarea></textarea>
+      <button id="submit" type="submit">
+
+    </form>
+
+
+
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
   </body>
 </html>
